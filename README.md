@@ -23,6 +23,7 @@ This project is structured around the California housing dataset and includes:
 ---
 ## 📂 Directory Overview
 
+c<pre lang="markdown"><code>
 ca_housing_project/
 ├── analysis/
 │   ├── eda.ipynb
@@ -46,6 +47,8 @@ ca_housing_project/
 ├── .gitignore
 ├── README.md
 └── requirements.txt
+</code></pre>
+
 
 ---
 ## 🔁 Workflow Summary
