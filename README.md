@@ -21,36 +21,35 @@ This project is structured around the California housing dataset and includes:
   - Final model export with `joblib`
 
 ---
+
 ## 📂 Directory Overview
 
-<pre lang="markdown"><code>
-ca_housing_project/
-├── analysis/
-│   ├── eda.ipynb
-│   ├── ida.ipynb
-│   └── preprocessing_pipeline.py
-├── data/
-│   ├── raw/
-│   │   └── housing.csv
-│   ├── train/
-│   │   ├── housing_train.csv
-│   │   └── housing_train_processed.csv
-│   └── test/
-│       └── housing_test.csv
-├── images/
-│   └── histograms.png
-├── models/
-│   ├── LinearRegression.ipynb
-│   ├── DecisionTree.ipynb
-│   ├── RandomForest.ipynb
-│   └── SVR.ipynb
-├── .gitignore
-├── README.md
-└── requirements.txt
-</code></pre>
-
+    ca_housing_project/
+    ├── analysis/
+    │   ├── eda.ipynb
+    │   ├── ida.ipynb
+    │   └── preprocessing_pipeline.py
+    ├── data/
+    │   ├── raw/
+    │   │   └── housing.csv
+    │   ├── train/
+    │   │   ├── housing_train.csv
+    │   │   └── housing_train_processed.csv
+    │   └── test/
+    │       └── housing_test.csv
+    ├── images/
+    │   └── histograms.png
+    ├── models/
+    │   ├── LinearRegression.ipynb
+    │   ├── DecisionTree.ipynb
+    │   ├── RandomForest.ipynb
+    │   └── SVR.ipynb
+    ├── .gitignore
+    ├── README.md
+    └── requirements.txt
 
 ---
+
 ## 🔁 Workflow Summary
 
 1. **Run `ida.ipynb`**  
@@ -87,5 +86,4 @@ ca_housing_project/
 
 To generate the processed training data from the raw training split:
 
-```bash
-python analysis/preprocessing_pipeline.py
+    python analysis/preprocessing_pipeline.py
